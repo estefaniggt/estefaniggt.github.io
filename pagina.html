@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Nueva</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="pagina.css">
+</head>
+<body>
+    <nav>
+        <button class="boton" onclick="accion()">Menu</button>
+        <a href="#" class="bb desaparece">Inicio</a>
+        <a href="#" class="bb desaparece">Nosotros</a>
+        <a href="#" class="bb desaparece">Planes</a>
+        <a href="paginados.html" class="bb desaparece">Cursos</a>
+        <a href="#" class="bb desaparece">Contacto</a>
+    </nav>
+
+    <script>
+        function accion(){
+            console.log("Esta funcioando el boton");
+
+            var ancla = document.getElementsByClassName('bb');
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle('desaparece');
+            }
+        }
+    </script>
+
+<h1 class="precio"> ACADEMIA DE PROGRAMACION WEB</h1>
+
+<section class="container flex text-center">
+    <div class="columna">
+        <h2>PLAN UNO</h2>
+        <p class="precio">100$</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat numquam consectetur aperiam repellendus culpa illo, dolores dolorum nesciunt. Aliquid maxime voluptas commodi dolor corporis delectus possimus atque recusandae impedit?</p>
+        <hr>
+        <p>Lorem, ipsum dolor</p>
+        <p>Lorem ipsum dolor sit amet, consectet</p>
+        <p>Lorem ipsum</p>
+        <hr>
+        <a href="#" class="precio2">Comprar</a>
+    </div>
+
+    <div class="columna">
+        <h2>PLAN DOS</h2>
+        <p class="precio">200$</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat numquam consectetur aperiam repellendus culpa illo, dolores dolorum nesciunt. Aliquid maxime voluptas commodi dolor corporis delectus possimus atque recusandae impedit?</p>
+        <hr>
+        <p>Lorem, ipsum dolor</p>
+        <p>Lorem ipsum dolor sit amet, consectet</p>
+        <p>Lorem ipsum</p>
+        <hr>
+        <a href="#" class="precio2">Comprar</a>
+    </div>
+
+    <div class="columna">
+        <h2>PLAN TRES</h2>
+        <p class="precio">300$</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat numquam consectetur aperiam repellendus culpa illo, dolores dolorum nesciunt. Aliquid maxime voluptas commodi dolor corporis delectus possimus atque recusandae impedit?</p>
+        <hr>
+        <p>Lorem, ipsum dolor</p>
+        <p>Lorem ipsum dolor sit amet, consectet</p>
+        <p>Lorem ipsum</p>
+        <hr>
+        <a href="#" class="precio2">Comprar</a>
+    </div>
+
+    <div class="columna">
+        <h2>PLAN CUATRO</h2>
+        <p class="precio">400$</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fugiat numquam consectetur aperiam repellendus culpa illo, dolores dolorum nesciunt. Aliquid maxime voluptas commodi dolor corporis delectus possimus atque recusandae impedit?</p>
+        <hr>
+        <p>Lorem, ipsum dolor</p>
+        <p>Lorem ipsum dolor sit amet, consectet</p>
+        <p>Lorem ipsum</p>
+        <hr>
+        <a href="#" class="precio2">Comprar</a>
+    </div>
+</body>
+</html>

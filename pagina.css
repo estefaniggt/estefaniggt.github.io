@@ -1,0 +1,94 @@
+.bb{
+    background: #91091e;
+    color: #fdf1d6;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.bb:hover{
+    background: #fdffbc;
+    color: #91091e;
+}
+
+nav{
+    background: #433d3c;
+    padding: 10px 30px;
+    margin: 30px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.boton{
+    background: #fdf1d6;
+    color: #91091e;
+    padding: 10px 0;
+    border: 2px solid #fdf1d6;
+    display: none;
+  
+}
+
+h1{
+    margin: 50px 50px 50px 100px;
+}
+
+.columna{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+ }
+ 
+ .columna{
+     margin: 0 auto;
+     width: 90%; 
+ }
+ 
+ p{
+     font-weight: 300;
+ }
+ 
+ .precio{
+     font-family:'Reggae One', cursive;
+ }
+ 
+ .precio2{
+     text-decoration: none;
+ }
+ 
+ .flex{
+     display: flex;
+ }
+ 
+ .text-center{
+     text-align: center;
+ }
+ 
+ .columna{
+     background: #fdffbc;
+     color: rgb(139, 23, 15);
+     border: 1px solid steelblue;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 30px;
+     box-shadow: 10px 10px 5px #433d3c;
+ }
+ 
+ .precio{
+     font-size: 50px;
+     color: #91091e;
+ }
+
+@media (max-width: 3000px){
+    nav{
+        background: #433d3c;
+        flex-direction: column;
+    }
+    .bb{
+    margin: 10px 10px;
+    }
+    .boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+     }
+}
